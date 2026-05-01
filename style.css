@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #F4EFC3;
+}
+
+/* Sections */
+section {
+  position: fixed;
+  inset: 0;
+}
+
+/* Landing */
+#canvas {
+  position: absolute;
+  inset: 0;
+}
+
+#text {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-style: italic;
+}
+
+/* Living room */
+.room {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.bg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Clickable glasses */
+.glasses {
+  position: absolute;
+  width: 150px;
+
+  /* 🔧 adjust these to place correctly */
+  top: 60%;
+  left: 40%;
+
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.glasses:hover {
+  transform: scale(1.1);
+}
