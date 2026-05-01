@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Escape Room</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- LANDING -->
+<section id="landing">
+  <canvas id="canvas"></canvas>
+  <div id="text">Press any key to begin</div>
+</section>
+
+<!-- CHALLENGE 1 -->
+<section id="challenge1" hidden>
+  <div class="room">
+    <img src="assets/livingroom.png" class="bg" />
+
+    <!-- Clickable glasses -->
+    <img src="assets/glasses.png" class="glasses" id="glasses" />
+  </div>
+</section>
+
+<!-- CHALLENGE 2 (placeholder) -->
+<section id="challenge2" hidden>
+  <h1>Next puzzle coming soon...</h1>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
