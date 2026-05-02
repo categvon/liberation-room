@@ -5,7 +5,7 @@ canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
 const img = new Image();
-img.src = "assets/images/scotoma.png";
+img.src = "/liberation-room/assets/images/scotoma.png";
 
 let started = false;
 let revealAmount = 0;
