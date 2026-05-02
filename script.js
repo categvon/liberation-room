@@ -12,7 +12,7 @@ canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
 const img = new Image();
-img.src = "assets/scotoma.png";
+img.src = "assets/images/scotoma.png";
 
 let revealProgress = 0;
 
